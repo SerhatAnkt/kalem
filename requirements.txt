@@ -1,0 +1,2 @@
+# Proje kökünde çalıştırın. Bağımlılıklar pyproject.toml içinde tanımlıdır.
+-e .

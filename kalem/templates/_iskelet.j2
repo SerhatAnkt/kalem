@@ -1,0 +1,32 @@
+{# Ortak resmî yazı iskeleti — Resmî Yazışma Yönetmeliği unsur düzeni.
+   Yazı tipi/marj gibi biçim ayrıntıları DOCX katmanında uygulanır. #}
+T.C.
+{{ kurum_adi }}
+{{ birim_adi }}
+
+Sayı  : {{ sayi }}
+Konu  : {{ konu }}
+{{ "%54s"|format(tarih) }}
+
+{{ muhatap|upper }}
+
+{% if ilgi %}
+İlgi  : {{ ilgi }}
+
+{% endif %}
+{{ govde }}
+{% if mevzuat_atiflari %}
+
+Dayanak mevzuat:
+{% for m in mevzuat_atiflari %}
+  - {{ m.kaynak }}, Madde {{ m.madde_no }}
+{% endfor %}
+{% endif %}
+{% if dusuk_guven %}
+
+NOT: Kaynak belge düşük çözünürlüklü/güvenli okunmuştur; alan bilgileri fiziki evrakla teyit edilmelidir.
+{% endif %}
+
+
+{{ "%54s"|format(imza_ad) }}
+{{ "%54s"|format(imza_unvan) }}

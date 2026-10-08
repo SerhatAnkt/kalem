@@ -1,0 +1,38 @@
+# Evrak türü taksonomisi. anahtar_kelimeler: çevrimdışı kural-tabanlı modun ve
+# few-shot örneklerin kaynağı. varsayilan_yazi_turu: Görev 2'de taslak türü seçimi.
+# Sıra önemlidir: çevrimdışı kural tabanlı sınıflandırmada eşit anahtar-kelime
+# isabetinde ÜSTTEKİ tür seçilir. Bu yüzden ayırt edici/spesifik türler (4982
+# atfı taşıyan bilgi edinme gibi) genel 'dilekce' türünden önce sıralanır.
+turler:
+  bilgi_edinme:
+    ad: "Bilgi Edinme Başvurusu"
+    anahtar_kelimeler: ["bilgi edinme", "4982", "bilgi edinme hakkı"]
+    varsayilan_yazi_turu: cevap_yazisi
+  dilekce:
+    ad: "Dilekçe (şahıs başvurusu)"
+    anahtar_kelimeler: ["dilekçe", "arz ederim", "talep ediyorum", "saygılarımla", "gereğini arz"]
+    varsayilan_yazi_turu: cevap_yazisi
+  resmi_yazi_gelen:
+    ad: "Kurumlar Arası Resmî Yazı"
+    anahtar_kelimeler: ["sayı:", "ilgi:", "dağıtım", "müdürlüğüne", "başkanlığına", "rica ederim"]
+    varsayilan_yazi_turu: cevap_yazisi
+  sikayet_ihbar:
+    ad: "Şikâyet / İhbar"
+    anahtar_kelimeler: ["şikayet", "şikâyet", "ihbar", "mağdur", "rahatsız"]
+    varsayilan_yazi_turu: bilgilendirme
+  gorus_oneri:
+    ad: "Görüş / Öneri"
+    anahtar_kelimeler: ["görüş", "öneri", "değerlendirilmesi", "tavsiye"]
+    varsayilan_yazi_turu: bilgilendirme
+  izin_onay_talebi:
+    ad: "İzin / Onay Talebi"
+    anahtar_kelimeler: ["izin", "onay", "uygun görülmesi", "müsaade"]
+    varsayilan_yazi_turu: ust_yazi
+  mali_evrak:
+    ad: "Mali Evrak (fatura/ödeme)"
+    anahtar_kelimeler: ["fatura", "ödeme", "tutar", "kdv", "tl"]
+    varsayilan_yazi_turu: ust_yazi
+  diger_belirsiz:
+    ad: "Diğer / Belirsiz"
+    anahtar_kelimeler: []
+    varsayilan_yazi_turu: bilgilendirme

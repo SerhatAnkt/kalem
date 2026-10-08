@@ -1,0 +1,30 @@
+# Kurum-agnostik birim kataloğu: yeni kuruma uyarlama = bu dosyayı düzenlemek.
+birimler:
+  - kod: yazi_isleri
+    ad: "Yazı İşleri Müdürlüğü"
+    gorev: "Genel evrak kayıt, dağıtım ve kurum içi yazışma koordinasyonu."
+    anahtar_kelimeler: ["kayıt", "dağıtım", "genel", "yazışma"]
+  - kod: insan_kaynaklari
+    ad: "İnsan Kaynakları Müdürlüğü"
+    gorev: "Personel özlük, izin, atama, görevlendirme işlemleri."
+    anahtar_kelimeler: ["personel", "izin", "atama", "özlük", "görevlendirme", "yıllık izin"]
+  - kod: mali_hizmetler
+    ad: "Mali Hizmetler Müdürlüğü"
+    gorev: "Bütçe, ödeme emri, fatura ve mali yükümlülük işlemleri."
+    anahtar_kelimeler: ["fatura", "ödeme", "bütçe", "tahakkuk", "tutar", "kdv"]
+  - kod: hukuk_musavirligi
+    ad: "Hukuk Müşavirliği"
+    gorev: "Hukuki görüş, dava ve mevzuat değerlendirmeleri."
+    anahtar_kelimeler: ["hukuki", "dava", "sözleşme", "mevzuat görüşü", "itiraz"]
+  - kod: bilgi_islem
+    ad: "Bilgi İşlem Müdürlüğü"
+    gorev: "Bilişim altyapısı, EBYS ve teknik destek."
+    anahtar_kelimeler: ["sistem", "yazılım", "ebys", "erişim", "teknik arıza", "internet"]
+  - kod: halkla_iliskiler
+    ad: "Basın ve Halkla İlişkiler Müdürlüğü"
+    gorev: "Bilgi edinme başvuruları (4982), vatandaş iletişimi, basın."
+    anahtar_kelimeler: ["bilgi edinme", "4982", "basın", "vatandaş", "cimer"]
+  - kod: destek_hizmetleri
+    ad: "Destek Hizmetleri Müdürlüğü"
+    gorev: "Satın alma, bakım-onarım, taşınır ve genel destek işleri."
+    anahtar_kelimeler: ["satın alma", "bakım", "onarım", "malzeme", "araç", "temizlik", "park", "aydınlatma"]

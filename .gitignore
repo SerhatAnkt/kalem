@@ -1,0 +1,36 @@
+# Yerel ayarlar ve anahtarlar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python ve geliştirme araçları
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# İşlenen belgeler, yanıt önbelleği ve üretilen indeksler
+cikti/*
+!cikti/.gitkeep
+data/index/*
+!data/index/.gitkeep
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+
+# Yerel editör ve işletim sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+KAYNAK: 6698 sayılı Kişisel Verilerin Korunması Kanunu
+NOT: ÖZET/ÖRNEK metindir; resmî tam metni mevzuat.gov.tr adresinden indiriniz.
+
+MADDE 4 - Kişisel veriler, ancak bu Kanunda ve diğer kanunlarda öngörülen usul ve esaslara uygun olarak işlenebilir. Kişisel verilerin işlenmesinde hukuka ve dürüstlük kurallarına uygun olma, doğru ve gerektiğinde güncel olma, belirli açık ve meşru amaçlar için işlenme, işlendikleri amaçla bağlantılı sınırlı ve ölçülü olma ile ilgili mevzuatta öngörülen süre kadar muhafaza edilme ilkelerine uyulur.
+
+MADDE 5 - Kişisel veriler ilgili kişinin açık rızası olmaksızın işlenemez. Kanunlarda açıkça öngörülmesi, bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması, veri sorumlusunun hukuki yükümlülüğünü yerine getirmesi ve ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaati için zorunlu olması hâllerinde açık rıza aranmaz.
+
+MADDE 12 - Veri sorumlusu, kişisel verilerin hukuka aykırı olarak işlenmesini ve verilere hukuka aykırı olarak erişilmesini önlemek ile verilerin muhafazasını sağlamak amacıyla uygun güvenlik düzeyini temin etmeye yönelik gerekli her türlü teknik ve idari tedbirleri almak zorundadır.

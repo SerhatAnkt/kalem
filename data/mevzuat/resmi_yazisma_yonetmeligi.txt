@@ -1,0 +1,10 @@
+KAYNAK: Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik
+NOT: ÖZET/ÖRNEK metindir; resmî tam metni mevzuat.gov.tr adresinden indiriniz.
+
+MADDE 5 - Resmî yazışmalar, güvenli elektronik imza kullanılarak elektronik belge yönetim sistemi üzerinden yapılır. Elektronik ortamda yapılamayan yazışmalarda belgenin çıktısı alınarak fiziksel ortamda imzalanır.
+
+MADDE 10 - Belgede başlık, sayı, tarih, konu, muhatap, ilgi, metin, imza ve gerektiğinde ek, dağıtım gibi bölümler bulunur. Sayı ve evrak kayıt numarası belgenin üst kısmında yer alır.
+
+MADDE 11 - Konu, belge metninin özünü yansıtacak biçimde ve muhatabın ilk bakışta içeriği anlayabileceği açıklıkta yazılır. Konu bölümü, muhatap satırının altında yer alır.
+
+MADDE 15 - Metnin bitiminde, yazının gönderildiği makama göre uygun bir saygı ifadesiyle bağlanır. Alt makama yazılan yazılar "rica ederim", üst ve aynı düzeydeki makamlara yazılan yazılar "arz ederim" ifadesiyle bitirilir.

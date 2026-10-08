@@ -1,0 +1,85 @@
+{
+  "mod": "Çevrimdışı, kural tabanlı demo",
+  "girdi": "data/ornek_evraklar/dilekce_tam.txt",
+  "siniflandirma": {
+    "tur": "dilekce",
+    "aciliyet": "normal",
+    "guven": 0.84,
+    "gerekce": "Kural tabanlı: 3 anahtar kelime isabeti"
+  },
+  "cikarilan_alanlar": {
+    "gonderen_ad_soyad": {
+      "deger": "Mehmet DEMİR",
+      "guven": 0.85,
+      "kaynak_span": "Ad Soyad: Mehmet DEMİR"
+    },
+    "adres": {
+      "deger": "Cumhuriyet Mahallesi, Atatürk Caddesi No: 42/5, Merkez",
+      "guven": 0.85,
+      "kaynak_span": "Adres: Cumhuriyet Mahallesi, Atatürk Caddesi No: 42/5, Merkez"
+    },
+    "konu": {
+      "deger": "Park bakım talebi",
+      "guven": 0.85,
+      "kaynak_span": "Konu: Park bakım talebi"
+    },
+    "tarih": {
+      "deger": "20.03.2026",
+      "guven": 0.85,
+      "kaynak_span": "Tarih: 20.03.2026"
+    },
+    "imza": {
+      "deger": "mevcut",
+      "guven": 0.7,
+      "kaynak_span": "imza ibaresi"
+    },
+    "tc_kimlik": {
+      "deger": "*********50",
+      "guven": 0.9,
+      "kaynak_span": "*********50"
+    },
+    "talep_ozeti": {
+      "deger": "Çocukların güvenliği açısından bu ekipmanların bakım ve onarımının yapılmasını talep ediyorum.",
+      "guven": 0.7,
+      "kaynak_span": "Çocukların güvenliği açısından bu ekipmanların bakım ve onarımının yapılmasını talep ediyorum."
+    }
+  },
+  "eksik_alanlar": [],
+  "hedef_birim": {
+    "birim": "Destek Hizmetleri Müdürlüğü",
+    "birim_kodu": "destek_hizmetleri",
+    "guven": 0.95,
+    "gerekce": "Kural tabanlı: 3 anahtar kelime isabeti",
+    "alternatif": ""
+  },
+  "ilgili_mevzuat": [
+    {
+      "kaynak": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+      "madde_no": "10",
+      "alinti": "MADDE 10 - Belgede başlık, sayı, tarih, konu, muhatap, ilgi, metin, imza ve gerektiğinde ek, dağıtım gibi bölümler bulunur. Sayı ve evrak kayıt numarası belgenin üst kısmında yer alır.",
+      "skor": 0.0164
+    },
+    {
+      "kaynak": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik",
+      "madde_no": "11",
+      "alinti": "MADDE 11 - Konu, belge metninin özünü yansıtacak biçimde ve muhatabın ilk bakışta içeriği anlayabileceği açıklıkta yazılır. Konu bölümü, muhatap satırının altında yer alır.",
+      "skor": 0.0161
+    },
+    {
+      "kaynak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+      "madde_no": "6",
+      "alinti": "MADDE 6 - Bilgi edinme başvurusu, başvuru sahibinin adı ve soyadı, imzası, oturma yeri veya iş adresini içeren dilekçe ile istenen bilgi veya belgenin bulunduğu kurum veya kuruluşa yapılır. Bu başvuru elektronik ortamda veya diğer iletişim araçlarıyla da yapılabilir.",
+      "skor": 0.0159
+    },
+    {
+      "kaynak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+      "madde_no": "4",
+      "alinti": "MADDE 4 - Herkes bilgi edinme hakkına sahiptir. Türkiye'de ikamet eden yabancılar ile Türkiye'de faaliyette bulunan yabancı tüzel kişiler, isteyecekleri bilgi kendileriyle veya faaliyet alanlarıyla ilgili olmak kaydıyla ve karşılıklılık ilkesi çerçevesinde bu haktan yararlanır.",
+      "skor": 0.0156
+    }
+  ],
+  "denetim_raporu": {
+    "sonuc": "GECTI",
+    "bulgular": []
+  }
+}

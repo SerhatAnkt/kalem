@@ -1,0 +1,7 @@
+FATURA
+Kurum: Örnek Tedarik Ltd. Şti.
+Tarih: 28.03.2026
+Konu: Kırtasiye malzemesi tedariki
+Tutar: 15.750,00 TL
+
+Yukarıda belirtilen mal ve hizmet bedelinin ödenmesi için düzenlenmiştir.

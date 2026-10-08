@@ -1,0 +1,32 @@
+kurum:
+  ad: "ÖRNEK KURUM BAŞKANLIĞI"
+  varsayilan_birim: "Yazı İşleri Müdürlüğü"
+  imza_ad: "Ad SOYAD"
+  imza_unvan: "Birim Amiri"
+
+modeller:
+  hizli: "groq/openai/gpt-oss-20b"
+  ana: "groq/openai/gpt-oss-120b"
+  yedekler:
+    - "groq/llama-3.3-70b-versatile"
+  # Deneysel multimodal okuma varsayılan olarak kapalıdır.
+  # Görüntü/PDF destekleyen bir LiteLLM model kimliği ayrı olarak girilebilir.
+  ocr: ""
+
+esikler:
+  ocr_kritik: 0.30
+  ocr_dusuk: 0.55
+  siniflandirma: 0.60
+  mevzuat_min_skor: 1.0
+  mevzuat_k: 4
+  revizyon_limiti: 2
+
+llm:
+  sicaklik: 0.2
+  max_cikti_token: 2048
+  onbellek_db: "data/yanit_onbellegi.sqlite"
+
+yollar:
+  mevzuat_dizini: "data/mevzuat"
+  indeks_dizini: "data/index"
+  cikti_dizini: "cikti"

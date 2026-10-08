@@ -1,0 +1,8 @@
+# İsteğe bağlı bileşenler. İlk demo için gerekli değildir.
+# Sadece Groq kullanılacaksa: python -m pip install groq
+groq>=0.11
+litellm>=1.40
+chromadb>=0.5
+sentence-transformers>=3
+pytesseract>=0.3.10
+Pillow>=10

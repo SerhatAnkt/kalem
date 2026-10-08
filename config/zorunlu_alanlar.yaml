@@ -1,0 +1,36 @@
+# Eksik bilgi tespiti kural tabanı. Kritiklik: kritik | onemli | opsiyonel
+# 'dayanak': eksik bildiriminde kullanıcıya gösterilen hukuki/idari gerekçe.
+# Not: Dilekçe zorunlulukları 3071 sayılı Kanun md.4'e dayanır (ad-soyad, imza, iş/ikamet adresi).
+kurallar:
+  dilekce:
+    - {alan: gonderen_ad_soyad, kritiklik: kritik,  dayanak: "3071 sayılı Kanun md. 4"}
+    - {alan: adres,             kritiklik: kritik,  dayanak: "3071 sayılı Kanun md. 4"}
+    - {alan: imza,              kritiklik: kritik,  dayanak: "3071 sayılı Kanun md. 4"}
+    - {alan: talep_ozeti,       kritiklik: kritik,  dayanak: "Talep konusu olmadan işlem tesis edilemez"}
+    - {alan: tarih,             kritiklik: onemli,  dayanak: "Süre hesapları için gereklidir"}
+    - {alan: tc_kimlik,         kritiklik: onemli,  dayanak: "Kimlik doğrulama"}
+  bilgi_edinme:
+    - {alan: gonderen_ad_soyad, kritiklik: kritik,  dayanak: "4982 sayılı Kanun başvuru usulü"}
+    - {alan: adres,             kritiklik: kritik,  dayanak: "4982 sayılı Kanun başvuru usulü"}
+    - {alan: talep_ozeti,       kritiklik: kritik,  dayanak: "İstenen bilgi/belge belirtilmelidir"}
+    - {alan: imza,              kritiklik: onemli,  dayanak: "Yazılı başvurularda aranır"}
+  resmi_yazi_gelen:
+    - {alan: gonderen_kurum,    kritiklik: kritik,  dayanak: "Muhatap tespiti"}
+    - {alan: konu,              kritiklik: kritik,  dayanak: "Resmî Yazışma Yönetmeliği - konu unsuru"}
+    - {alan: sayi,              kritiklik: onemli,  dayanak: "Resmî Yazışma Yönetmeliği - sayı unsuru"}
+    - {alan: tarih,             kritiklik: onemli,  dayanak: "Resmî Yazışma Yönetmeliği - tarih unsuru"}
+  sikayet_ihbar:
+    - {alan: talep_ozeti,       kritiklik: kritik,  dayanak: "Şikâyete konu olay belirtilmelidir"}
+    - {alan: gonderen_ad_soyad, kritiklik: onemli,  dayanak: "İhbar anonim olabilir; şikâyette aranır"}
+    - {alan: adres,             kritiklik: onemli,  dayanak: "Tebligat için gereklidir"}
+  izin_onay_talebi:
+    - {alan: gonderen_ad_soyad, kritiklik: kritik,  dayanak: "Talep sahibi belirsiz olamaz"}
+    - {alan: talep_ozeti,       kritiklik: kritik,  dayanak: "Talep konusu belirtilmelidir"}
+  mali_evrak:
+    - {alan: gonderen_kurum,    kritiklik: kritik,  dayanak: "Düzenleyen taraf zorunludur"}
+    - {alan: tutar,             kritiklik: kritik,  dayanak: "Mali evrakta tutar zorunludur"}
+    - {alan: tarih,             kritiklik: onemli,  dayanak: "Mali dönem tespiti"}
+  gorus_oneri:
+    - {alan: talep_ozeti,       kritiklik: kritik,  dayanak: "Görüş/öneri konusu belirtilmelidir"}
+  diger_belirsiz:
+    - {alan: talep_ozeti,       kritiklik: onemli,  dayanak: "İçerik amacı belirsiz"}
